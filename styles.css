@@ -1,0 +1,18 @@
+.users {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.user {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.HCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
